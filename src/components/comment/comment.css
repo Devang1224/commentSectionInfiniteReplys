@@ -1,0 +1,40 @@
+.singleCommentContainer{
+   padding-left: 15px;
+}
+
+.comment{
+    min-width:200px;
+    margin-top:10px;
+    border:2px solid black;
+    padding-left: 5px;
+ }
+ 
+ .comment .controls{
+ max-width: 100%;
+ margin-top:15px;
+ display: flex;
+ justify-content: flex-end;
+ gap:20px;
+ }
+ 
+ .comment .controls p{
+  word-wrap: break-word;
+ }
+ .comment .controls button{
+  width:50px;
+ cursor: pointer;
+ }
+
+ 
+
+ .replyContainer{
+        /* padding-left: 10px; */
+ }
+ 
+ .hideReplyContainer{
+    display: none;
+ }
+
+ .hideEditContainer{
+   display: none;
+ }
